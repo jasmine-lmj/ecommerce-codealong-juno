@@ -17,7 +17,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
     left:-1000px;
     top:0;
     z-index:999;
-
+    
     &:focus{
         left:0;
         right:0;
@@ -25,6 +25,8 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
     }
 
 }
+
+
 
 
 

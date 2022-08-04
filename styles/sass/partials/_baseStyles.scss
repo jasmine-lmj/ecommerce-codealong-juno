@@ -37,8 +37,9 @@ a{
             color:$solidWhite;
         }
     }
-    & .secondaryButton{
+    &.secondaryButton{
         background-color: $primary;
+        color:$solidWhite;
 
         &:hover,
         &:focus{

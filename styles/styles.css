@@ -614,6 +614,11 @@ footer a:hover, footer a:focus {
   .navBar .logo {
     margin: 7px 0 12px;
   }
+  .slideOutNav {
+    font-family: "Young Serif";
+    font-size: 30px;
+    font-size: 1.5rem;
+  }
   .categories {
     padding: 90px 0;
   }

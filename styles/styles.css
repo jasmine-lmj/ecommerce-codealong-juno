@@ -478,6 +478,47 @@ header .headerContentContainer {
   padding: 0 90px;
 }
 
+.categories {
+  padding: 30px 0;
+}
+.categories .categoryGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+.categories .item1 {
+  background-color: #ffd698;
+}
+.categories .item2 {
+  background-color: #f4fcff;
+}
+.categories .item3 {
+  background-color: #f8fbf3;
+}
+.categories .item4 {
+  background-color: #fff5f5;
+}
+.categories .item {
+  width: 40%;
+  padding: 40px;
+  border-radius: 10%;
+  margin: 25px 0;
+}
+.categories .item a:hover, .categories .item a:focus {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.categories .item img {
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+
 footer {
   background-color: #084b6d;
   color: #fff;

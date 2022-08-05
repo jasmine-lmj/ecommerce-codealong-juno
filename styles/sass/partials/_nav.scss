@@ -55,7 +55,12 @@
     flex-direction: column;
     z-index:20;
     left:-450px;
+    transition:0.3s;
 
+    // this is for js , to show the slideOutNav
+    &.open{
+        left:0;
+    }
 
 
     button{

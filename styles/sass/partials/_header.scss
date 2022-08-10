@@ -21,10 +21,6 @@ header{
     padding-top: 100px;
     text-align: center;
 
-    .contactContent {
-        padding-bottom: 50px;
-    }
-    
     &::after{
         content:"";
         background-image: url(../assets/wave.svg);
@@ -33,5 +29,8 @@ header{
         background-size: 100% 150px;
     }
 
+    .contactContent {
+        padding-bottom: 50px;
+    }
     
 }

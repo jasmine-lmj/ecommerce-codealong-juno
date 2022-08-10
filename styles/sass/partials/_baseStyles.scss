@@ -25,28 +25,29 @@ button{
 a{
     display: inline-block;
 
-    &.button{
-        border:2px solid $primary;
-        @include fontSize(14);
-        font-weight:bold;
-        padding:15px 32px;
-        
+    &.secondaryButton {
+        background-color: $primary;
+        color: $solidWhite;
+
         &:hover,
         &:focus {
-            background-color: $primary;
-            color:$solidWhite;
-        }
-    }
-    &.secondaryButton{
-        background-color: $primary;
-        color:$solidWhite;
-
-        &:hover,
-        &:focus{
             background-color: $solidWhite;
-            color:$primary;
+            color: $primary;
         }
     }
-
 }
 
+.button {
+    border: 2px solid $primary;
+    @include fontSize(14);
+    font-weight: bold;
+    padding: 15px 32px;
+    color:$primary;
+    transition:0.3s;
+
+    &:hover,
+    &:focus {
+        background-color: $primary;
+        color: $solidWhite;
+    }
+}
